@@ -6,7 +6,7 @@ export class DBConfig {
 
     constructor() {
         //Connect with mongo db
-        mongoose.connect('mongodb://localhost:27017/finzy').then(
+        mongoose.connect('mongodb://54.163.190.228:27017/finzy').then(
             () => {
                 console.log('db connection is successfull');
             },
